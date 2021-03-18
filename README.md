@@ -3,7 +3,7 @@
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
 |Xamarin|[.NET 6 preview2 初體驗 - 執行 Maui 專案](Xamarin/NET6-Preview-Maui-Blazor.md)||https://csharpkh.blogspot.com/2021/03/NET6-Preview-Maui-Blazor.html|
-|Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|C#|[.NET Core 使用地址來查詢 GPS 經度緯度](CSharp/Address-GPS-Geocoding-Google-Maps-Latitude-Longitude-API-Keys.md)||https://csharpkh.blogspot.com/2021/03/Address-GPS-Geocoding-Google-Maps-Latitude-Longitude-API-Keys.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
