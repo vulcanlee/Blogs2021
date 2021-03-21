@@ -143,11 +143,79 @@
 
 * 若沒有看到上面的視窗，但是卻在 [錯誤清單] 視窗內看到底下的錯誤訊息，請使用滑鼠雙擊這個訊息，就會看到上述的視窗。
 
-  ![Visual Studio 2019 缺少 Android SDK](../Images/Csharp972.png)
+  ![Visual Studio 2019 錯誤清單 缺少 Android SDK](../Images/Csharp972.png)
 
-* 若沒有看到上面的視窗，但是卻在 [錯誤清單] 視窗內看到底下的錯誤訊息，請使用滑鼠雙擊這個訊息，就會看到上述的視窗。
+* 當 Android SDK 安裝與更新完成後
+* 點選 Visual Studio 2019 功能表 [工具] > [Android] > [Android SDK 管理員]
 
-  ![Visual Studio 2019 開始](../Images/Csharp971.png)
+  ![Visual Studio 2019 功能表 工具 Android](../Images/Csharp971.png)
+
+* 此時，將會看到 Android SDK 及工具 視窗出現
+* 在這裡將會看到這台電腦所設定的 Android SDK 有哪些版本與安裝了那些工具；若有尚未更新到最新版本的訊息出現，可以在這裡進行更新操作
+  * 點選 [平台] 標籤頁次，查看有安裝那些 Android SDK 版本
+  * 點選 [工具] 標籤頁次，查看有安裝那些 工具
+
+  ![Visual Studio 2019 Android SDK 及工具 平台](../Images/Csharp970.png)
+
+  ![Visual Studio 2019 Android SDK 及工具 工具](../Images/Csharp969.png)
+
+* 點選 Visual Studio 2019 功能表 [工具] > [Android] > [Android 裝置管理員]
+* 現在將會出現 Android 開發時候可以使用的模擬器
+
+  ![Visual Studio 2019 Android 裝置管理員](../Images/Csharp968.png)
+
+* 請點選右上方的 [新增] 按鈕，便可以看到底下的畫面
+* 在這個 [新增裝置] 對話窗內，可以設定這個模擬器相關特性
+* 在這裡將會先使用預設值，請點選右下方的 [建立] 按鈕
+
+  ![Visual Studio 2019 Android 新增裝置 模擬器](../Images/Csharp967.png)
+
+* 由於是第一次使用，所以將會顯示 [接受授權] 對話窗，請點選右下方的 [接受] 按鈕
+
+  ![Visual Studio 2019 Android 新增裝置 接受授權](../Images/Csharp966.png)
+
+* 等候一些時間，將會線上下載模擬器，並且進行設定，一旦完成後，就會看到底下畫面
+* 請點選 [啟動] 按鈕，啟動這個模擬器
+
+  ![Visual Studio 2019 Android 模擬器 啟動](../Images/Csharp965.png)
+
+* 也是因為第一次啟動，需要花費比較多的時間，然後就會看到如下圖畫面，Android 模擬器已經成功啟動了。
+
+  ![Visual Studio 2019 Android 模擬器已經成功啟動了](../Images/Csharp964.png)
+
+* 最後，要來實際在 Android 環境中，執行一個 Xamarin.Forms 專案程式
+* 請在功能表的下方，使用下拉選單 UI 來切換預設專案為 [MyFirstForms.Android]
+* 緊接著在剛剛下拉選單按鈕旁，會看到一個綠色三角形的按鈕，其顯示要在哪個 Android 裝置下來進行執行與除錯
+* 請點選這個綠色三角形按鈕，以便開始進行建置、除錯這個 Android 專案
+
+  ![開始進行建置、除錯這個 Android 專案](../Images/Csharp963.png)
+
+* 正常情況，將會看到這個 Xamarin.Forms 範例專案成功的在剛剛建立的模擬器上啟動與執行起來
+* 到了這個步驟，你可以確定這件事情，你的電腦已經具備可以開發 Xamarin.Forms 跨平台專案的能力
+
+  ![剛剛建立的模擬器上啟動與執行 Xamarin.Forms 範例專案 起來](../Images/Csharp962.png)
+
+  > 若在最後的步驟遇到問題，可以關閉模擬器，關閉 Visual Studio ，接著，再重新打開 Visual Studio，開啟剛剛建立的專案，啟動模擬器，重新再執行一次
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
