@@ -9,6 +9,7 @@
 |教育訓練|[平行處理、多執行緒、非同步設計等相關課程之 Visual Studio 2019 安裝說明](Training/Thread-Asynchronous-Visual-Studio-2019-Installation-Training.md)||https://csharpkh.blogspot.com/2021/03/.html|
 |教育訓練|[Xamarin.Forms 之 Visual Studio 2019 完整安裝攻略說明](Training/Xamarin-Forms-Visual-Studio-2019-Installation-Training.md)||https://csharpkh.blogspot.com/2021/03/Xamarin-Forms-Visual-Studio-2019-Installation-Training.html|
 |Blazor|[在 Blazor 專案內使用 NLog 進行系統執行日誌紀錄](Blazor/Blazor-Nlog-config-AspNetCore-target-NLogBuilder-ILogger.md)||https://csharpkh.blogspot.com/2021/04/Blazor-Nlog-config-AspNetCore-target-NLogBuilder-ILogger.html|
+|Blazor|[在 Blazor 專案內使用 NLog ，並透過 appsettings.json 來指定 Log 儲存路徑](Blazor/Blazor-Nlog-AspNetCore-appsettings-json-IConfiguration.md)||https://csharpkh.blogspot.com/2021/04/Blazor-Nlog-AspNetCore-appsettings-json-IConfiguration.html|
 |Blazor|[文章](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
 |||||
 |||||
