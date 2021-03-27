@@ -1,13 +1,13 @@
 # Blazor 專案使用ASP.NET Core 中的選項模式取得設定宣告內容
 
-當在進行 [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 專案程式設計的時候，可以將許多的設定參數，使用 [ASP.NET Core 中的選項模式](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/configuration/options?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 來進行定義，也就是定義在 [appsettings.json] 檔案內(這部分可以參考 [ASP.NET Core 的設定
-](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220)，而在專案執行過程中，可以使用強型別的方式取出這些設定參數，而且，最重要的是可以根據不同執行階段環境，讀取到當時執行階段的設定參數。
+當在進行 [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 專案程式設計的時候，可以將許多的設定參數，使用 [ASP.NET Core 中的選項模式](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/configuration/options?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 來進行定義，也就是定義在 [appsettings.json] 檔案內 (這部分可以參考 [ASP.NET Core 的設定
+](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220)) ，而在專案執行過程中，可以使用強型別的方式取出這些設定參數，而且，最重要的是可以根據不同執行階段環境，讀取到當時執行階段的設定參數。
 
 現在來看看如何做出這樣的範例成程式碼。
 
 這篇文章的原始碼位於 [bzOptions](https://github.com/vulcanlee/CSharp2021/tree/main/bzOptions)
 
-## 建立測試用主控台應用程式專案
+## 建立Blazor Server 應用程式專案
 
 * 開啟 Visual Studio 2019
 * 選擇右下方的 [建立新的專案] 按鈕
