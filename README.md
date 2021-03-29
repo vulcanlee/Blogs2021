@@ -2,7 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
-|Xamarin|[.NET 6 preview2 初體驗 - 執行 Maui 專案](Xamarin/NET6-Preview-Maui-Blazor.md)||https://csharpkh.blogspot.com/2021/03/NET6-Preview-Maui-Blazor.html|
+|Xamarin|[.NET 6 preview2 初體驗 - 執行 Maui 專案](XamarinForms/NET6-Preview-Maui-Blazor.md)||https://csharpkh.blogspot.com/2021/03/NET6-Preview-Maui-Blazor.html|
 |C#|[.NET Core 使用地址來查詢 GPS 經度緯度](CSharp/Address-GPS-Geocoding-Google-Maps-Latitude-Longitude-API-Keys.md)||https://csharpkh.blogspot.com/2021/03/Address-GPS-Geocoding-Google-Maps-Latitude-Longitude-API-Keys.html|
 |Blazor|[使用 Blazor 專案在 JavaScript 內呼叫 C# 執行個體方法](Blazor/Blazor-IJSRuntime-Instance-JavaScript-DotNetObjectReference-Delegate-InvokeVoidAsync-Binding.md)||https://csharpkh.blogspot.com/2021/04/.html|
 |教育訓練|[2021年04月 .NET 平行程式設計介紹 免費課程](Training/NET-Parallelism-Concurrency-Asynchronous.md)||https://csharpkh.blogspot.com/2021/03/NET-Parallelism-Concurrency-Asynchronous.html|
@@ -12,6 +12,17 @@
 |Blazor|[在 Blazor 專案內使用 NLog ，並透過 appsettings.json 來指定 Log 儲存路徑](Blazor/Blazor-Nlog-AspNetCore-appsettings-json-IConfiguration.md)||https://csharpkh.blogspot.com/2021/04/Blazor-Nlog-AspNetCore-appsettings-json-IConfiguration.html|
 |Blazor|[Blazor 專案使用ASP.NET Core 中的選項模式取得設定宣告內容](Blazor/Blazor-ASP-NET-Core-configuration-options-GetSection.md)||https://csharpkh.blogspot.com/2021/04/Blazor-ASP-NET-Core-configuration-options-GetSection.html|
 |Blazor|[Blazor 專案使用ASP.NET Core 中的選項模式取得巢狀設定宣告內容](Blazor/Blazor-ASP-NET-Core-configuration-Nest-options-GetSection.md)||https://csharpkh.blogspot.com/2021/04/Blazor-ASP-NET-Core-configuration-Nest-options-GetSection.html|
+|Blazor|[ASP.NET Core Blazor 設定 Configuration 各種使用方式](Blazor/Blazor-ASP-NET-Core-Configuration-GetSection-Bind-Get.md)||https://csharpkh.blogspot.com/2021/04/Blazor-ASP-NET-Core-Configuration-GetSection-Bind-Get.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
 |||||
 |||||
 |||||

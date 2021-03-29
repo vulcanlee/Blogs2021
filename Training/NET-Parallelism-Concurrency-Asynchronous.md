@@ -25,7 +25,7 @@
 * 具有 .NET Core 開發環境(VS4W / VS Code / VS4M 皆可)
 
 ## 報名方式
-* 使用該 [表單](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEXiDYu_HJUMjcwUVYxMFNTOEZUWVdVQUJWNEFXRkNJOS4u) 填寫報名資訊與對快閃課程期望
+* 使用該 [表單](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEXiDYu_HJUMjcwUVYxMFNTOEZUWVdVQUJWNEFXRkNJOS4u) 填寫報名資訊與對課程期望
 * 或者掃描底下 QRCode，填寫
 
 ![202104 .NET 平行程式設計介紹_ 課程報名申請表](../Images/Csharp942.png)
@@ -44,9 +44,8 @@
 ## 其他說明
 * 本課程使用的程式語言為 .NET / C#
 * 預計時間約為3小時
-* 因為場地限制，此次課程限制最多報名人數為 6 人
 * 若報名無故沒來參加，將會禁止日後參加本單位舉辦的相關課程
-* 請自行攜帶可以開發與執行 .NET Core 或者 .NET Framework 筆電，方便現場實作練習
+* 請自行攜帶可以開發與執行 .NET Core 或者 .NET Framework 筆電，進行現場實作練習
 * 該課程以互動提問、討論方式設計，若無法適應此教學方式，請勿報名參加
 * 若有上網需求，請自備可以透過電腦聯網的行動裝置
 * 本課程不提供上課簡報檔案
