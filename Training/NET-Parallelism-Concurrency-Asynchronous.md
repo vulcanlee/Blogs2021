@@ -25,13 +25,17 @@
 * 具有 .NET Core 開發環境(VS4W / VS Code / VS4M 皆可)
 
 ## 報名方式
-* 使用該 [表單](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEXiDYu_HJUMjcwUVYxMFNTOEZUWVdVQUJWNEFXRkNJOS4u) 填寫報名資訊與對課程期望
+
+* 請先使用該 [表單](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAEXiDYu_HJUMjcwUVYxMFNTOEZUWVdVQUJWNEFXRkNJOS4u) 填寫報名資訊與對課程期望
 * 或者掃描底下 QRCode，填寫
 
 ![202104 .NET 平行程式設計介紹_ 課程報名申請表](../Images/Csharp942.png)
 
+* 由於座位有限，若成功報名且可以參加本免費課程者，將會透過 FB 私訊通知
+* 也會於 FB [Xamarin Blazor 實驗室](https://www.facebook.com/vulcanlabtw) 公告相關訊息
+
 ## 開課時間
-2021.04.10(六) 下午 13:00 ~ 16:00
+2021.04.24 (六) 下午 13:00 ~ 16:00
 
 ## 上課地點
 高雄市鼓山區大順一路439號6樓之3 [地圖](https://www.google.com.tw/maps/place/804%E9%AB%98%E9%9B%84%E5%B8%82%E9%BC%93%E5%B1%B1%E5%8C%BA%E5%A4%A7%E9%A0%86%E4%B8%80%E8%B7%AF439%E8%99%9F9%E8%99%9F%E6%A8%93%E4%B9%8B3/@22.6557144,120.3004975,17z/data=!3m1!4b1!4m5!3m4!1s0x346e04fe86e55555:0x4191a31bd8c1f2c!8m2!3d22.6557144!4d120.3026915)
