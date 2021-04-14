@@ -13,7 +13,7 @@
 |Blazor|[Blazor 專案使用ASP.NET Core 中的選項模式取得設定宣告內容](Blazor/Blazor-ASP-NET-Core-configuration-options-GetSection.md)||https://csharpkh.blogspot.com/2021/04/Blazor-ASP-NET-Core-configuration-options-GetSection.html|
 |Blazor|[Blazor 專案使用ASP.NET Core 中的選項模式取得巢狀設定宣告內容](Blazor/Blazor-ASP-NET-Core-configuration-Nest-options-GetSection.md)||https://csharpkh.blogspot.com/2021/04/Blazor-ASP-NET-Core-configuration-Nest-options-GetSection.html|
 |Blazor|[ASP.NET Core Blazor 設定 Configuration 各種使用方式](Blazor/Blazor-ASP-NET-Core-Configuration-GetSection-Bind-Get.md)||https://csharpkh.blogspot.com/2021/04/Blazor-ASP-NET-Core-Configuration-GetSection-Bind-Get.html|
-|CSharp|[](CSharp/Windows-Forms-WPF-remote-debugging-csharp.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|CSharp|[使用 Visual Studio 2019 進行遠端 Windows Forms 應用程式除錯](CSharp/Windows-Forms-WPF-remote-debugging-csharp.md)||https://csharpkh.blogspot.com/2021/04/Windows-Forms-WPF-remote-debugging-csharp.html|
 |Blazor|[在 ASP.NET Core Blazor 專案內，使用 MailKit 發送具有 HTML 格式的電子郵件](Blazor/Blazor-MailKit-SMTP-HTML-MIME-Subject-Body-MimeMessage-SmtpClient.md)||https://csharpkh.blogspot.com/2021/04/Blazor-MailKit-SMTP-HTML-MIME-Subject-Body-MimeMessage-SmtpClient.html|
 |Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
 |Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
