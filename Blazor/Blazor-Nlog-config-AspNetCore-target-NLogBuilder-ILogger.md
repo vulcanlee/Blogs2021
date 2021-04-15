@@ -8,7 +8,7 @@
 
 這篇文章的原始碼位於 [bzNlog](https://github.com/vulcanlee/CSharp2021/tree/main/bzNlog)
 
-## 建立測試用主控台應用程式專案
+## 建立 Blazor Server-Side 的專案
 
 * 開啟 Visual Studio 2019
 * 選擇右下方的 [建立新的專案] 按鈕
