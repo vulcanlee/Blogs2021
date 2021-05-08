@@ -16,13 +16,13 @@
 |CSharp|[使用 Visual Studio 2019 進行遠端 Windows Forms 應用程式除錯](CSharp/Windows-Forms-WPF-remote-debugging-csharp.md)||https://csharpkh.blogspot.com/2021/04/Windows-Forms-WPF-remote-debugging-csharp.html|
 |Blazor|[在 ASP.NET Core Blazor 專案內，使用 MailKit 發送具有 HTML 格式的電子郵件](Blazor/Blazor-MailKit-SMTP-HTML-MIME-Subject-Body-MimeMessage-SmtpClient.md)||https://csharpkh.blogspot.com/2021/04/Blazor-MailKit-SMTP-HTML-MIME-Subject-Body-MimeMessage-SmtpClient.html|
 |Blazor|[Blazor 專案使用 SfDatePicker 選取日期](Blazor/Blazor-Syncfusion-DatePicker-Min-Max-Format.md)||https://csharpkh.blogspot.com/2021/04/Blazor-Syncfusion-DatePicker-Min-Max-Format.html|
-|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
-|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
-|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
-|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
-|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
-|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
-|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/04/.html|
+|Blazor|[Blazor 使用 Parameter 資料綁定方式的觸發時機](Blazor/Parameter-Binding-Change-State-ref.md)||https://csharpkh.blogspot.com/2021/05/Parameter-Binding-Change-State-ref.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
+|Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
 |||||
 |||||
 |||||
