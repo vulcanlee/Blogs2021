@@ -17,6 +17,7 @@
 |Blazor|[在 ASP.NET Core Blazor 專案內，使用 MailKit 發送具有 HTML 格式的電子郵件](Blazor/Blazor-MailKit-SMTP-HTML-MIME-Subject-Body-MimeMessage-SmtpClient.md)||https://csharpkh.blogspot.com/2021/04/Blazor-MailKit-SMTP-HTML-MIME-Subject-Body-MimeMessage-SmtpClient.html|
 |Blazor|[Blazor 專案使用 SfDatePicker 選取日期](Blazor/Blazor-Syncfusion-DatePicker-Min-Max-Format.md)||https://csharpkh.blogspot.com/2021/04/Blazor-Syncfusion-DatePicker-Min-Max-Format.html|
 |Blazor|[Blazor 使用 Parameter 資料綁定方式的觸發時機](Blazor/Parameter-Binding-Change-State-ref.md)||https://csharpkh.blogspot.com/2021/05/Parameter-Binding-Change-State-ref.html|
+|CSharp|[快取 Web API 內容 1 : 將 .NET 物件永久保存儲存，並可以讀取回應用程式內](CSharp/NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.md)||https://csharpkh.blogspot.com/2021/05/NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.html|
 |Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
 |Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
 |Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
