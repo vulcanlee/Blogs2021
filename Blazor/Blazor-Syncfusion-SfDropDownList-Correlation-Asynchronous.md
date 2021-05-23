@@ -1,4 +1,4 @@
-# Blazor SfDropDownList 聯動式下拉選單的設計
+# Blazor SfDropDownList 聯動式下拉選單的設計 Part 1 : 符合預期規劃結果
 
 當我在進行 Xamarin.Forms App 專案開發教學的時候，這個需求是學員一定需要做的練習，畢竟，這樣的應用需求是個相當普遍的；在這篇文章中，將會說明如何在 Blazor 專案內，使用 Syncfusion 所提供的 SfDropDownList 元件，做出這樣的設計。
 
@@ -241,10 +241,100 @@ namespace bzDropDownListCorrelation
 }
 ```
 
+在這個 [ProblemViewModel] 類別，將會透過相依性注入容器，注入到所要使用的 Razor 元件內；在建構函式內，將會注入 [MyClassService] 與 [YourClassService] 這兩個類別物件。
+
+另外，在這個類別內宣告了許多屬性，這些屬性將會用於綁定到 Razor 元件上
+
+該類別還有設計兩個方法
+
+* ProblemViewModelInit
+
+  在這個下拉選單元件建立的時候，會透過這個方法來建立起我的下拉選單可用的清單項目紀錄，在此是透過 [await MyClassService.Get()] 這個非同步方法呼叫的方式來取得；一旦取得了要顯示的所有顯示清單項目，便會將這個最新清單項目指派給要綁定屬性 [MyClassList]，接著會在最前面置入一個額外選項，名稱為 "請選擇" 的選項，並且設定該選項為預設選擇項目。
+
+  之後，便會把你的下拉選單與他的下拉選單清空。
+
+* MasterListChanged
+
+  這是個 [SfDropDownList] 的 [ValueChange] 事件的委派事件，當該下拉選單的選擇項目有異動的時候，便會觸發這個 [MasterListChanged] 事件委派方法
+
+  在這個事件委派方法內，將會依據我的下拉選單的最新輸入的清單項目，動態產生出你的下拉選單與他的下拉選單之可用清單項目，並且把這兩個下拉選單之前的輸入結果，進行重新設定；不論是你的下拉選單或者是他的下拉選單的清單項目，都是透過非同步方法呼叫方式來取得。
+
+## MyClassService 程式碼
+
+```csharp
+using bzDropDownListCorrelation.Data;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace bzDropDownListCorrelation
+{
+    public class MyClassService
+    {
+        public async Task<List<MyClass>> Get()
+        {
+            await Task.Delay(1000); // 模擬存取資料庫的非同步執行時間
+            List<MyClass> result = new();
+            for (int i = 1; i < 100; i++)
+            {
+                MyClass myClass = new()
+                {
+                    Id = i,
+                    Name=$"我的選擇清單項目 {i}",
+                };
+                result.Add(myClass);
+            }
+            return result;
+        }
+    }
+}
+```
+
+底下為這個類別的程式碼
+
+該類別僅設計一個非同步方法 [Get]，會產生出 99 筆的清單項目，不過，在這裡使用了 `await Task.Delay(1000)` 敘述來按停 1 秒鐘的時間，代表模擬存取資料庫的非同步執行時間，因此，當網頁顯示在瀏覽器的時候，將會需要等候 1 秒的時間，我的下拉選單控制項，才可以看到這些清單項目可以使用。
+
+## YourClassService 程式碼
+
+```csharp
+using bzDropDownListCorrelation.Data;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace bzDropDownListCorrelation
+{
+    public class YourClassService
+    {
+        public async Task<List<YouClass>> Get(string subject, int parentId)
+        {
+            Random random = new();
+            var maxItems = random.Next(10, 60);
+            var delay = random.Next(500, 3000);
+            await Task.Delay(delay); // 模擬存取資料庫的非同步執行時間
+            List<YouClass> result = new();
+            for (int i = 1; i < maxItems; i++)
+            {
+                YouClass myClass = new()
+                {
+                    Id = i,
+                    Name=$"{subject}{parentId} - {i}",
+                };
+                result.Add(myClass);
+            }
+            return result;
+        }
+    }
+}
+```
+
+底下為這個類別的程式碼
+
+該類別僅設計一個非同步方法 [Get]，不過該方法需要提供兩個參數，第一個是該選擇清單項目要顯示的前導文字內容，第二個參數則是我的下拉選單所選擇清單項目 Id，這樣可以方便看出你的和他的下拉選單清單項目，會隨著我的下拉選單選擇結果而有我變化。接著會隨機產生出 10 - 60 筆的清單項目，不過，在這裡同樣的使用了 `var delay = random.Next(500, 3000);await Task.Delay(delay);` 敘述來按停 0.5~3 秒鐘的時間，代表模擬存取資料庫的非同步執行時間，因此，當我的下拉選單輸入項目有變動的時候，將會需要等候 0.5~3 秒的時間，你的下拉選單控制項與他的下拉選單控制項，才可以看到這些清單項目可以使用。
+
 ## 執行結果
 
-請按下 F5 開始執行這個專案，將會看到底下的執行結果
+請按下 F5 開始執行這個專案，嘗試進行操作，應該會如同當初所規劃的情境來運作
 
-```
-寫入檔案的路徑 D:\Vulcan\GitHub\CSharp2021\csObjectToFile\csObjectToFile\bin\Debug\net5.0\Data\myClass
-```

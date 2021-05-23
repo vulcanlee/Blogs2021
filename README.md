@@ -2,7 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
-|Blazor|[Blazor SfDropDownList 聯動式下拉選單的設計](CSharp/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.md)||https://csharpkh.blogspot.com/2021/05/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.html|
+|Blazor|[Blazor SfDropDownList 聯動式下拉選單的設計 Part 1 : 符合預期規劃結果](CSharp/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.md)||https://csharpkh.blogspot.com/2021/05/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.html|
 |Xamarin|[.NET 6 preview2 初體驗 - 執行 Maui 專案](XamarinForms/NET6-Preview-Maui-Blazor.md)||https://csharpkh.blogspot.com/2021/03/NET6-Preview-Maui-Blazor.html|
 |C#|[.NET Core 使用地址來查詢 GPS 經度緯度](CSharp/Address-GPS-Geocoding-Google-Maps-Latitude-Longitude-API-Keys.md)||https://csharpkh.blogspot.com/2021/03/Address-GPS-Geocoding-Google-Maps-Latitude-Longitude-API-Keys.html|
 |Blazor|[使用 Blazor 專案在 JavaScript 內呼叫 C# 執行個體方法](Blazor/Blazor-IJSRuntime-Instance-JavaScript-DotNetObjectReference-Delegate-InvokeVoidAsync-Binding.md)||https://csharpkh.blogspot.com/2021/04/.html|
