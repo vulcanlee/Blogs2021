@@ -2,7 +2,9 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
-|Blazor|[Blazor SfDropDownList 聯動式下拉選單的設計 Part 1 : 符合預期規劃結果](CSharp/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.md)||https://csharpkh.blogspot.com/2021/05/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.html|
+|Blazor|[快取 Web API 內容 2 : 在 Xamarin.Forms 專案內，將 .NET 物件永久保存儲存，並可以讀取回應用程式內](XamarinForms/Xamarin-Forms-NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.md)||https://csharpkh.blogspot.com/2021/05/Xamarin-Forms-NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.html|
+|Blazor|[Blazor SfDropDownList 聯動式下拉選單的設計 Part 1 : 符合預期規劃結果](Blazor/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.md)||https://csharpkh.blogspot.com/2021/05/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.html|
+|CSharp|[快取 Web API 內容 1 : 將 .NET 物件永久保存儲存，並可以讀取回應用程式內](CSharp/NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.md)||https://csharpkh.blogspot.com/2021/05/NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.html|
 |Xamarin|[.NET 6 preview2 初體驗 - 執行 Maui 專案](XamarinForms/NET6-Preview-Maui-Blazor.md)||https://csharpkh.blogspot.com/2021/03/NET6-Preview-Maui-Blazor.html|
 |C#|[.NET Core 使用地址來查詢 GPS 經度緯度](CSharp/Address-GPS-Geocoding-Google-Maps-Latitude-Longitude-API-Keys.md)||https://csharpkh.blogspot.com/2021/03/Address-GPS-Geocoding-Google-Maps-Latitude-Longitude-API-Keys.html|
 |Blazor|[使用 Blazor 專案在 JavaScript 內呼叫 C# 執行個體方法](Blazor/Blazor-IJSRuntime-Instance-JavaScript-DotNetObjectReference-Delegate-InvokeVoidAsync-Binding.md)||https://csharpkh.blogspot.com/2021/04/.html|
@@ -18,7 +20,6 @@
 |Blazor|[在 ASP.NET Core Blazor 專案內，使用 MailKit 發送具有 HTML 格式的電子郵件](Blazor/Blazor-MailKit-SMTP-HTML-MIME-Subject-Body-MimeMessage-SmtpClient.md)||https://csharpkh.blogspot.com/2021/04/Blazor-MailKit-SMTP-HTML-MIME-Subject-Body-MimeMessage-SmtpClient.html|
 |Blazor|[Blazor 專案使用 SfDatePicker 選取日期](Blazor/Blazor-Syncfusion-DatePicker-Min-Max-Format.md)||https://csharpkh.blogspot.com/2021/04/Blazor-Syncfusion-DatePicker-Min-Max-Format.html|
 |Blazor|[Blazor 使用 Parameter 資料綁定方式的觸發時機](Blazor/Parameter-Binding-Change-State-ref.md)||https://csharpkh.blogspot.com/2021/05/Parameter-Binding-Change-State-ref.html|
-|CSharp|[快取 Web API 內容 1 : 將 .NET 物件永久保存儲存，並可以讀取回應用程式內](CSharp/NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.md)||https://csharpkh.blogspot.com/2021/05/NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.html|
 |Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
 |Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
 |Blazor|[](Blazor/.md)||https://csharpkh.blogspot.com/2021/05/.html|
