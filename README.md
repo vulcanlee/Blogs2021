@@ -2,7 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
-|Blazor|[Blazor SfGrid SfDataManager 的參數 Parameter 傳遞的異常設計分析](Blazor/Blazor-Syncfusion-SfGrid-SfDataManager-Parameter-Asynchronous.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Syncfusion-SfGrid-SfDataManager-Parameter-Asynchronous.html|
+|Blazor|[Blazor SfGrid SfDataManager 的參數 Parameter 傳遞的異常設計分析 1](Blazor/Blazor-Syncfusion-SfGrid-SfDataManager-Parameter-Asynchronous.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Syncfusion-SfGrid-SfDataManager-Parameter-Asynchronous.html|
 |Blazor|[Blazor SfDropDownList 聯動式下拉選單的設計 Part 2 : 各種例外異常設計分析](Blazor/Blazor-Syncfusion-SfDropDownList-Correlation-Exception-Asynchronous.md)||https://csharpkh.blogspot.com/2021/05/Blazor-Syncfusion-SfDropDownList-Correlation-Exception-Asynchronous.html|
 |Blazor|[快取 Web API 內容 2 : 在 Xamarin.Forms 專案內，將 .NET 物件永久保存儲存，並可以讀取回應用程式內](XamarinForms/Xamarin-Forms-NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.md)||https://csharpkh.blogspot.com/2021/05/Xamarin-Forms-NET-Object-JSON-File-Persisten-read-Write-Cache-Directory.html|
 |Blazor|[Blazor SfDropDownList 聯動式下拉選單的設計 Part 1 : 符合預期規劃結果](Blazor/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.md)||https://csharpkh.blogspot.com/2021/05/Blazor-Syncfusion-SfDropDownList-Correlation-Asynchronous.html|
