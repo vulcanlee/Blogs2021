@@ -2,6 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|Blazor|[Blazor Server 快速開發專案樣板 2 - 啟用詳細除錯資訊](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part2-UseDeveloperExceptionPage-UseExceptionHandler.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part2-UseDeveloperExceptionPage-UseExceptionHandler.html|
 |Blazor|[Blazor Server 快速開發專案樣板 1 - 建立一個新的專案](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part1-Create-New.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part1-Create-New.html|
 |Blazor|[Blazor SfGrid SfDataManager 的參數 Parameter 傳遞的異常設計分析 2](Blazor/Blazor-Syncfusion-SfGrid-SfDataManager-Parameter-Asynchronous-Part2-StateHasChanged-Task-Yield.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Syncfusion-SfGrid-SfDataManager-Parameter-Asynchronous-Part2-StateHasChanged-Task-Yield.html|
 |Blazor|[Blazor SfGrid SfDataManager 的參數 Parameter 傳遞的異常設計分析 1](Blazor/Blazor-Syncfusion-SfGrid-SfDataManager-Parameter-Asynchronous.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Syncfusion-SfGrid-SfDataManager-Parameter-Asynchronous.html|
