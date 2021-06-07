@@ -122,13 +122,8 @@ Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrat
 
 * 請重新執行這個專案
 * 不論現在在哪個頁面，請輸入這個網址 https://localhost:5001/Initialization
-* 請在驗證碼欄位內輸入 `945973` 這個驗證碼
 
   > 當然，這個頁面應該要在正式部署階段時候，應該需要移除，以避免造成資料庫會被移除或者造成破壞
-
-  ![](../Images/x014.png)
-
-* 當點選 [送出] 按鈕之後，就會出現底下畫面
 
   ![](../Images/x015.png)
 
