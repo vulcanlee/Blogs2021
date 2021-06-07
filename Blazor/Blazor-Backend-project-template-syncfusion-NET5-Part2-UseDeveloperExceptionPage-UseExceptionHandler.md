@@ -173,9 +173,39 @@ info: Microsoft.Hosting.Lifetime[0]
 * 接著取消剛剛的環境變數設定，請在 [命令提示字元] 視窗內輸入 `set EmergenceDebug=`
 * 最後，按下 [Enter] 即可
 
+對於要部署到 IIS 主機上，需要在該主機上可以使用下列的 setx 命令，在 Windows 上設定環境機碼和值，這部分的內容一樣可以參考 [環境變數](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 。
 
+### 如何設計在正式部署下，要顯示明確的例外異常資訊
 
+* 請到 [Backend] 專案目錄下的 [Startup.cs] 檔案
+* 找到 `services.AddServerSideBlazor()` 這個敘述，會看到底下的程式碼
 
+```csharp
+#region Blazor Server 註冊服務，正式部署下，是否要顯示明確的例外異常資訊
+bool emergenceDebugStatus = Convert.ToBoolean(Configuration["EmergenceDebug"]);
+if (emergenceDebugStatus == true)
+{
+    Console.WriteLine($"啟用正式部署可以顯示錯誤詳細資訊");
+    services.AddServerSideBlazor()
+        .AddCircuitOptions(e =>
+        {
+            e.DetailedErrors = true;
+        });
+}
+else
+{
+    services.AddServerSideBlazor();
+}
+#endregion
+```
+
+  > 關於這個方法，可以參考 [ComponentServiceCollectionExtensions.AddServerSideBlazor(IServiceCollection, Action<CircuitOptions>) 方法](https://docs.microsoft.com/zh-tw/dotnet/api/microsoft.extensions.dependencyinjection.componentservicecollectionextensions.addserversideblazor?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220)
+
+使用了 [AddCircuitOptions] 這個方法，會使用到 [CircuitOptions 類別](https://docs.microsoft.com/zh-tw/dotnet/api/microsoft.aspnetcore.components.server.circuitoptions?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 來設定相關 Blazor 電路 Circuit 的運作行為；其中，這裡使用到了 `e.DetailedErrors = true;` 來設定 DetailErrors 屬性值為真，表示需要顯示錯誤詳細訊息。
+
+要呼叫這個方法取決於讀取 [ASP.NET Core 的設定](https://docs.microsoft.com/zh-tw/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 是否有宣告 EmergenceDebug 這個物件值為 true，這裡需要透過 `bool emergenceDebugStatus = Convert.ToBoolean(Configuration["EmergenceDebug"]);` 敘述來取得這個設定值，根據這個屬性布林值決定 Blazor 的電路運作行為。
+
+因為在這個 [Blazor Server 快速開發專案樣板] 中已經內建這樣的運作機制，因此，透過這個專案範本來進行 Blazor Server 網頁專案設計的時候，便可以隨時動態的進行調整。
 
 
 
