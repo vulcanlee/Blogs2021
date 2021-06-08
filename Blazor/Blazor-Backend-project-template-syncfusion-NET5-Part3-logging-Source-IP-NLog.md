@@ -2,6 +2,8 @@
 
 ![Blazor Server](../Images/x043.png)
 
+[Blazor Server 快速開發專案樣板 - 相關系列文章清單](https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5.html)
+
 上一篇的文章 : [Blazor Server 快速開發專案樣板 2 - 啟用詳細除錯資訊](https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part2-UseDeveloperExceptionPage-UseExceptionHandler.html)
 
 當在 [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 是建立在於 [ASP.NET Core](https://docs.microsoft.com/zh-tw/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 開發框架下的一套 UI 框架套件，因此，許多在進行 Blazor 專案開發過程中所面對的需求，需要知道如何使用 [ASP.NET Core] 所提供的各種 API 來進行全端網站開發。
