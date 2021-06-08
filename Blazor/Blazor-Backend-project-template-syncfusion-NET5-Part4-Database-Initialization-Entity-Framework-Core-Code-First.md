@@ -162,6 +162,8 @@
 
 一旦點選 [資料庫初始化] 按鈕之後，就會 `DatabaseInitService.InitDataAsync()` 這個方法，而這個 DatabaseInitService 服務物件將會是透過相依性注入容器來注入這個物件 (使用這個敘述來宣告注入能力 `@inject DatabaseInitService DatabaseInitService`)
 
+## DatabaseInitService.cs
+
 這個 InitDataAsync() 方法將會定義在 [Services] 資料夾內的 [DatabaseInitService.cs] 檔案內，底下將會僅列出這個類別內的 InitDataAsync() 方法內的部分程式碼。
 
 ```csharp
@@ -200,5 +202,31 @@ public async Task InitDataAsync()
 
 最後使用 [await SystemLogHelper.LogAsync()] 方法，將會寫入到系統內部的日誌資料表內。
 
+接下來便是要進行這個新的資料庫要來建立起相關紀錄
+
+這裡會用到底下的程式碼
+
 ![](../Images/x057.png)
+
+依據資料表的相依關係，將會需要先建立功能表角色與相關功能表清單項目，這裡將會使用 `await 建立功能表角色與項目清單Async();` 這個方法來建立
+
+其中將會建立三個功能表角色，分別是 開發者角色、系統管理員角色、使用者角色 ，第一個角色可以看到的功能表清單在前面已經看到了，底下將分別是另外兩個角色可以看得到的功能項目清單
+
+![系統管理員角色](../Images/x058.png)
+
+![使用者角色](../Images/x059.png)
+
+接下來則是要建立 MyUser 資料表內的測試使用的相關紀錄，這裡將會使用到 `await 建立使用者紀錄Async();` 這個方法，其中當建立使用者的時候，同時會指定該使用者需要搭配的功能表角色的紀錄。
+
+最後，使用 `List<Product> products = await 建立產品紀錄Async();` 與 `await 建立訂單紀錄Async(random, products);` 將會建立起產品與訂單用的測試紀錄。
+
+到這裡為止，資料庫重新建立好了，測試紀錄也新增完成了，現在可以使用這個 Blazor 專案建立的網站服務，開始進行登入，並且使用相關的作業服務。
+
+在這裡建立好的測試用的使用者帳號如下：
+
+* 系統開發者帳密 : god / 123
+* 管理者帳密 : admin / 123
+* 一般使用者帳密 : user1~4 / 123
+
+透過這樣的設計方式可以達到這的效果，當系統需求變更的時候，造成資料庫架構有變動，例如：新增資料表、刪除資料表、資料表的欄位新增或者修改或刪除、限制條件修正等等，透過這個 https://localhost:5001/Initialization 網址所提供的服務，線上直接資料庫的重新建立作業，讓整體開發過程變得相當的簡單與容易。
 
