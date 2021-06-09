@@ -2,6 +2,8 @@
 
 ![Blazor Server 快速開發專案樣板 相關系列文章清單](../Images/x049.png)
 
+[![Blazor Server 快速開發專案樣板 - Syncfusion 註冊開發許可證](../Images/x064.png)](https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-COMMUNITY-LICENSE-RegisterLicense.html)
+
 [![Blazor Server 快速開發專案樣板 1 - 建立一個新的專案](../Images/x013.png)](https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part1-Create-New.html)
 
 [![Blazor Server 快速開發專案樣板 2 - 啟用詳細除錯資訊](../Images/x027.png)](https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part2-UseDeveloperExceptionPage-UseExceptionHandler.html)
