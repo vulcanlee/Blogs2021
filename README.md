@@ -2,6 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|Blazor|[Blazor Server 快速開發專案樣板 5 - 使用者身分驗證與授權](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part5-Cookie-Authentication-Authorization-CAPTCHA-Claim-Identity-SignInAsync.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part5-Cookie-Authentication-Authorization-CAPTCHA-Claim-Identity-SignInAsync.html|
 |Blazor|[Blazor Server 快速開發專案樣板 4 - 資料庫重建與紀錄初始化](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part4-Database-Initialization-Entity-Framework-Core-Code-First.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part4-Database-Initialization-Entity-Framework-Core-Code-First.html|
 |Blazor|[Blazor Server 快速開發專案樣板 3 - 日誌與來源 IP](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part3-logging-Source-IP-NLog.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part3-logging-Source-IP-NLog.html|
 |Blazor|[Blazor Server 快速開發專案樣板 2 - 啟用詳細除錯資訊](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part2-UseDeveloperExceptionPage-UseExceptionHandler.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part2-UseDeveloperExceptionPage-UseExceptionHandler.html|
