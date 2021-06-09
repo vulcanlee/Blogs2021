@@ -25,14 +25,14 @@
 * 把剛剛複製過來的 BackendStarter3 目錄改名為 MyWeb
 * 進入到 MyWeb 目錄內，找到 Backend.sln
 * 使用 Visual Studio 開啟 Backend.sln 檔案
-* 在 Visual Studio 2019 內按下 Ctrl + Shift + H
+* 在 Visual Studio 2019 內，按下 Ctrl + Shift + H
   > 你也可以點選功能表上的 [編輯] > [尋找與取代] > [檔案中取代]
   >
   > ![](../Images/x002.png)
   >
   > 準備進行將所有的  Backend 文字替換成為 MyWeb
 
-* 在 [尋找與取代] 視窗內，在第一個文字輸入盒內，輸入 Backend ，在第二個文字輸入盒輸入 MyWeb
+* 在 [尋找與取代] 視窗內，在第一個文字輸入盒內，輸入 Backend ，在第二個文字輸入盒輸入 MyWeb
 * 請在 [檔案類型] 欄位中輸入 `!*\bin\*;!*\obj\*;!*\.*;!Initialization.csproj` 文字
 * 點選下方的 [全部取代] 按鈕
 
