@@ -2,6 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|Blazor|[Blazor Server 必會開發技能 - 建立一個新的頁面](Blazor/Blazor-must-learn-skill-create-new-page.md)||https://csharpkh.blogspot.com/2021/06/Blazor-must-learn-skill-create-new-page.html|
 |Blazor|[Blazor Server 快速開發專案樣板 - Syncfusion 註冊開發許可證](Blazor/Blazor-Backend-project-template-syncfusion-NET5-COMMUNITY-LICENSE-RegisterLicense.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-COMMUNITY-LICENSE-RegisterLicense.html|
 |Blazor|[Blazor Server 快速開發專案樣板 5 - 使用者身分驗證與授權](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part5-Cookie-Authentication-Authorization-CAPTCHA-Claim-Identity-SignInAsync.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part5-Cookie-Authentication-Authorization-CAPTCHA-Claim-Identity-SignInAsync.html|
 |Blazor|[Blazor Server 快速開發專案樣板 4 - 資料庫重建與紀錄初始化](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part4-Database-Initialization-Entity-Framework-Core-Code-First.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part4-Database-Initialization-Entity-Framework-Core-Code-First.html|
