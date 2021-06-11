@@ -2,6 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|Blazor|[Blazor Server 快速開發專案樣板 7 - 無登入轉首頁與踢出停用帳號](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part7-Notification-Navigation-Login-Disable-User.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part7-Notification-Navigation-Login-Disable-User.html|
 |Blazor|[Blazor Server 快速開發專案樣板 6 - 動態功能表](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part6-Dynamic-Menu-AuthenticationStateProvider-NavigationManager-Identity-IsAuthenticated.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part6-Dynamic-Menu-AuthenticationStateProvider-NavigationManager-Identity-IsAuthenticated.html|
 |Blazor|[Blazor Server 必會開發技能 - 建立一個新的頁面](Blazor/Blazor-must-learn-skill-create-new-page.md)||https://csharpkh.blogspot.com/2021/06/Blazor-must-learn-skill-create-new-page.html|
 |Blazor|[Blazor Server 快速開發專案樣板 - Syncfusion 註冊開發許可證](Blazor/Blazor-Backend-project-template-syncfusion-NET5-COMMUNITY-LICENSE-RegisterLicense.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-COMMUNITY-LICENSE-RegisterLicense.html|
