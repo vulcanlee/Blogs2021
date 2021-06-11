@@ -2,7 +2,25 @@
 
 ![Blazor Server](../Images/x074.png)
 
-在這篇文章將會說明在進行 [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 專案開發的時候，通常會使用存取資料庫的紀錄，在這個 [Blazor Server 快速開發專案樣板] 內，使用了 [Entity Framework Core 5](https://docs.microsoft.com/zh-tw/ef/core/what-is-new/ef-core-5.0/whatsnew?WT.mc_id=DT-MVP-5002220) Code First 方式來進行存取資料庫，並且在開發階段將會使用本機電腦上的 localDB 資料庫來進行開發。
+對於許多網站開發者、尤其是使用 .NET C# 程式語言，第一次聽到 [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 這個 UI 開發框架，都會抱持著既期待又怕傷害的心情來面對這個工具；尤其，更進一步去了解之後，又發現到 [Blazor] 竟然又有 [Blazor WebAssembly](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/host-and-deploy/webassembly?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 與 [Blazor Server](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/host-and-deploy/server?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 兩種託管模式要來選擇。
+
+相信許多人面對這樣的情境，都會有著選擇性的障礙與情緒極度不安的心情。首先，對於不想使用或者對於 .NET C# 這樣開發程式語言沒有信心的人，強烈建議你不要勉強自己來選擇 [Blazor] 這樣的開發方式，畢竟，在 [Blazor] 的開發模式下，是僅需要使用 .NET C# / HTML / CSS 這三套語言，就可以完成絕大部分的網站開發工作。
+
+什麼，沒有看錯嗎？為什麼沒有 JavaScript 這個程式語言呢？
+
+你沒有看錯，對於擁有 JavaScript 這個程式語言並且身懷絕技開發者而言，使用 [Blazor] 似乎沒有太多的用處，你僅需要的是要能夠精通與專注於 C# 程式語言的開發即可。
+
+另外，要使用 [Blazor WebAssembly] 或者 [Blazor Server] 方式來開發專案，這裡有個建議，若僅是想要評估與學習如何使用 [Blazor] 這套 UI 框架來進行網站開發，可以直接使用 [Blazor Server] 的模式來開始學習；一旦絕大部分的 [Blazor] 功能都學會之後，想要切換到 [Blazor WebAssembley] 模式下來開發，只要相關的類別設計能夠充分使用相依性注入設計模式來開發，將會相當容易與快速的從 [Blazor Server] 轉換到 [Blazor WebAssembly]。
+
+對於 [Blazor Server] 與 [Blazor WebAssembly] 的差異與比較，網路上存在著相當豐富的文字，到 Google 上搜尋就可以看到一大票的這樣文章。對於作者而言，因為本身所處的環境，相當適合於 [Blazor Server] 的開發，因此，從 2020年6月，一開始就選擇了 [Blazor Server] 這樣的模式來進行 Blazor 專案開發，到現在為止已經開發出快要7套以上的網站專案。
+
+因此，建議對於想要使用 [Blazor] 來開發專案的讀者或者想要評估與測試 [Blazor] 這套開發工具的讀者，可以先採用 [Blazor Server] 的方式來著手進行。
+
+大家一定相當的關心，整體成效如何呢？作者只能說：相當的讚、超乎預期的優異、快速開發且縮短時間、專案好維護，還有一個很重要的絕佳優勢那就是，當開發人力不足的時候，招募新人進來，只需要具備 .NET C# 的開發經驗，最多給予 1 個月的教育訓練，這些新招募進來的開發人員便可以瞬間變身成為一個網站開發工程師，光是這樣的好處，就十分值得採用 [Blazor] 來開發網站應用程式。
+
+更多關於作者本身使用 [Blazor] 的實戰故事，可以參考 [Blazor實戰故事經驗分享 1 - 風起雲湧 如何從無到有建立Blazor團隊與採用全端開發方式設計出給上市企業使用的Web系統](https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Full-Stack-Case-Study-JavaScript-Story.html) 與 [Blazor實戰故事經驗分享 2 - 風雲再現 探究 Blazor 可以快速開發出來內部細節](https://csharpkh.blogspot.com/2020/11/Blazor-Server-Side-Layer-Data-Case-Study-Story.html)
+
+首先，先來看看如何在 [Blazor] 專案下建立一個新的網頁頁面。對於傳統的網專站專案開發想要完成這樣的需求，那就是要在該專案內建立一個 .html 的檔案即可，不過，使用 [Blazor] 完成這樣的需求，也是相當容易的。
 
 這裡說明的範例專案原始碼位於 [BS01](https://github.com/vulcanlee/Blazor-Xamarin-Full-Stack-HOL/tree/main/Examples/BS01)
 
