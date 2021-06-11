@@ -4,7 +4,7 @@
 
 在這篇文章將會說明在進行 [Blazor](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) 專案開發的時候，通常會使用存取資料庫的紀錄，在這個 [Blazor Server 快速開發專案樣板] 內，使用了 [Entity Framework Core 5](https://docs.microsoft.com/zh-tw/ef/core/what-is-new/ef-core-5.0/whatsnew?WT.mc_id=DT-MVP-5002220) Code First 方式來進行存取資料庫，並且在開發階段將會使用本機電腦上的 localDB 資料庫來進行開發。
 
-這裡說明的範例專案原始碼位於 [https://github.com/vulcanlee/Blazor-Xamarin-Full-Stack-HOL](https://github.com/vulcanlee/Blazor-Xamarin-Full-Stack-HOL)
+這裡說明的範例專案原始碼位於 [BS01](https://github.com/vulcanlee/Blazor-Xamarin-Full-Stack-HOL/tree/main/Examples/BS01)
 
 ## 建立 Blazor Server-Side 的專案
 
@@ -103,3 +103,70 @@
 * 在瀏覽器位址列輸入這個 `https://localhost:5001/MyFirstBlazorPage` 網址，就會看到如下圖執行結果
 
   ![](../Images/x080.png)
+
+## 進階問題探討
+
+* 為了方便進行說明問題，請先在 Visual Studio 按下 [Shift] + [F5] 來停止這個專案的執行
+* 接著，請按下 [F5] 開始重新執行這個專案
+* 一旦專案執行完成之後，請在瀏覽器上按下 [F12] 來使用 [開發人員工具]
+* 請在 [開發人員工具] 視窗內，切換到 [網路] 分頁標籤頁次
+* 接著點選最下方第一筆紀錄的 [localhost] 項目
+* 現在可以看到當要開啟這個網頁時候，瀏覽器端送出的 HTTP Get 需求的相關封包內容
+
+  ![](../Images/x082.png)
+
+* 現在，可以點選這個網頁左邊功能項目清單的任何項目 [Home] [Counter] [Fetch data] 連結
+* 此時，可以觀察 [開發人員工具] 內的 [網路] 分頁中的內容，是沒有任何變化的，不過，可以觀察到瀏覽器的位址列上的網址是有變化的，這似乎與其他開發工作所做出來的網站應用程式有所不同，Blazor Server 會有這樣的表現這是因為相關的頁面導航，都是透過 [SignalR](https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/signalr?view=aspnetcore-5.0&tabs=visual-studio&WT.mc_id=DT-MVP-5002220) 來完成的，因此，不會每次都對遠端的 HTTP 伺服器發出 HTTP Request 請求。
+
+  ![](../Images/x083.png)
+
+* 現在瀏覽器位址列輸入這個 `https://localhost:5001/MyFirstBlazorPage` 網址
+* 此時，可以從 [開發人員工具]  視窗中看到，左邊名稱欄位的第一筆紀錄是 [MyFirstBlazorPage]，而且在右邊視窗中可以驗證此時瀏覽器發出了一個 HTTP Get 請求，路徑為 /MyFirstBlazorPage 到 localhost:5001 伺服器上
+
+  ![](../Images/x084.png)
+
+* 同樣的，請點選該網頁最左邊的功能清單的任何項目，網頁一樣切換正常，並且同樣在 [開發人員工具] 視窗內沒有看到新的 HTTP 請求對 Web 伺服器送出
+
+### 將 MyFirstBlazorPage 頁面加入到左邊功能表選項清單內
+
+* 請展開 Blazor 專案內的 [Shared] 資料夾
+* 在該資料夾內找到並且打開 [NavMenu.razor] 檔案
+* 找到 Counter 這個功能表清單選項的程式碼，如下圖第15行~第19行
+
+  ![](../Images/x085.png)
+
+* 複製這段程式碼，並且修改成為 [MyFirstBlazorPage] 要使用的資訊
+
+```html
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="MyFirstBlazorPage">
+                <span class="oi oi-plus" aria-hidden="true"></span> 我的第一個頁面
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </li>
+    </ul>
+</div>
+```
+
+* 請重新執行這個 Blazor 專案
+* 當瀏覽器出現後，可以在網頁的最左方看到四個功能表選項
+* 請切換這四個功能表項目，確認網頁會正常顯示相關內容，並且從 [開發人員工具] 視窗內不會看到其他的 HTTP 請求發出，也就是相關的網頁切換運作動作，都是透過 [SignalR] 來完成的。
+
+  ![](../Images/x086.png)
+
