@@ -235,4 +235,10 @@ NavigationManager.NavigateTo("/Logout", true);
 </div>
 ```
 
-對於這個 [MainLayout.razor] 元件，將是作為整個 Blazor 專案的頁面樣板，
+對於這個 [MainLayout.razor] 元件，將是作為整個 Blazor 專案的頁面 [ASP.NET Core Blazor 版面配置](https://docs.microsoft.com/zh-tw/aspnet/core/blazor/components/layouts?view=aspnetcore-5.0&WT.mc_id=DT-MVP-5002220) ，任何設計的 Blazor 設計的頁面，就會在這個版面配置內 `@Body` 區段內顯示出來。
+
+也就是說，一旦這個 ASP.NET Core 專案執行起來之後，並且進入到 Blazor 路由內，這個 [MainLayout.razor] 元件就會僅被讀入與一次，不會因為在導航到不同頁面的時候，該元件不會被重複執行。
+
+因此，將 `<CheckUserStatusView />` 元件加入到 `<div class="sidebar"> </div>` 區段內，如此，只要進入到這個專案內的 Blazor 頁面內之後，就會讀入 [CheckUserStatusView] 元件，接著就會透過呼叫 `AuthenticationStateProvider.GetAuthenticationStateAsync()` 方法，判斷使用者是否已經登入了，接著就可以依照設計邏輯執行 無登入轉首頁與踢出停用帳號 這兩個邏輯運作。
+
+
