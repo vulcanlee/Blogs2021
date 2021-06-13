@@ -1,4 +1,4 @@
-# ASP.NET Core 基本功能操作 - 從空白專案建立 Blazor 應用
+# ASP.NET Core 應該具備知識 - 從空白專案建立 Blazor 應用
 
 ## 建立一個 空白 ASP.NET Core 專案
 
