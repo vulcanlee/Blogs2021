@@ -1,6 +1,6 @@
-# ASP.NET Core 應該具備知識 - 從空白專案建立 Blazor 應用
+# ASP.NET Core 應該具備知識 - 應用程式啟動與Startup類別
 
-![](../Images/x113.png)
+![](../Images/x110.png)
 
 ## 建立一個 空白 ASP.NET Core 專案
 
@@ -20,7 +20,7 @@
 
 * 在 [設定新的專案] 對話窗出現後
 
-  在 [專案名稱] 內，輸入 `AC99`
+  在 [專案名稱] 內，輸入 `AC02`
 
   點選右下角的 [下一步] 按鈕
 
@@ -75,7 +75,7 @@ app.UseEndpoints(endpoints =>
 
 * 滑鼠右擊專案節點
 * 在彈出功能表中，選擇 [加入] > [新增項目]
-* 出現 [新增項目 - AC99] 對話窗
+* 出現 [新增項目 - AC02] 對話窗
 * 依序點選 [已安裝] > [Visual C#] > [ASP.NET Core] > [Web] 節點
 * 在中間的檔案類型清單中，點選 [Razor 元件]
 * 在底下 [名稱] 欄位中輸入 `_Imports.razor`
@@ -94,14 +94,14 @@ app.UseEndpoints(endpoints =>
 @using Microsoft.AspNetCore.Components.Web
 @using Microsoft.AspNetCore.Components.Web.Virtualization
 @using Microsoft.JSInterop
-@using AC99
-@using AC99.Shared
+@using AC02
+@using AC02.Shared
 ```
 
 
 * 滑鼠右擊專案節點
 * 在彈出功能表中，選擇 [加入] > [新增項目]
-* 出現 [新增項目 - AC99] 對話窗
+* 出現 [新增項目 - AC02] 對話窗
 * 依序點選 [已安裝] > [Visual C#] > [ASP.NET Core] > [Web] 節點
 * 在中間的檔案類型清單中，點選 [Razor 元件]
 * 在底下 [名稱] 欄位中輸入 `App.razor`
@@ -153,24 +153,13 @@ app.UseEndpoints(endpoints =>
 
   ![](../Images/x107.png)
 
-* 當出現 [新增 Scaffold 項目] 對話窗
-* 點選 [Razor 頁面 - 空白] 這個項目
-* 點選 [加入] 按鈕
-
-  ![](../Images/x111.png)
-
-* 當出現 [新增項目 AC99] 對話窗
 * 在底下 [名稱] 欄位中輸入 `_Host.cshtml`
-
-  ![](../Images/x112.png)
-
 * 最後點選 [新增] 按鈕
-* 打開 [_Host.cshtml] 檔案
 * 將底下的程式碼替換掉這個檔案內的內容
 
 ```html
 @page "/"
-@namespace AC99.Pages
+@namespace AC02.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     Layout = null;
@@ -181,7 +170,7 @@ app.UseEndpoints(endpoints =>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AC99</title>
+    <title>AC02</title>
     <base href="~/" />
 </head>
 <body>
