@@ -2,6 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|CSharp|[ASP.NET Core 應該具備知識 - 中介軟體](CSharp/ASP-NET-Core-NET5-httpcontext-middleware-StaticFileOptions-PhysicalFileProvider-Invoke-context.md)||https://csharpkh.blogspot.com/2021/06/ASP-NET-Core-NET5-httpcontext-middleware-StaticFileOptions-PhysicalFileProvider-Invoke-context.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 應用程式啟動與Startup類別](CSharp/ASP-NET-Core-NET5-Entry-Pointer-Program-Startup-ConfigureServices-Configure.md)||https://csharpkh.blogspot.com/2021/06/ASP-NET-Core-NET5-Entry-Pointer-Program-Startup-ConfigureServices-Configure.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 從空白專案建立 Blazor 應用](CSharp/ASP-NET-Core-Empty-Project-NET5-Blazor.md)||https://csharpkh.blogspot.com/2021/06/ASP-NET-Core-Empty-Project-NET5-Blazor.html|
 |Blazor|[Blazor Server 快速開發專案樣板 7 - 無登入轉首頁與踢出停用帳號](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part7-Notification-Navigation-Login-Disable-User.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part7-Notification-Navigation-Login-Disable-User.html|
