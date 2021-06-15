@@ -453,9 +453,83 @@ Launch Task.Delay(100)
 
 現在，可以歸納出第四個設計技巧，在第二次再度使用 [await] 關鍵字呼叫完成非同步作業之後，若 counterNumber 變數數值有變動之後，Blazor 框架必定會自動觸發 [OnParametersSet] 與 [BuildRenderTree] 這兩個方法。
 
+## 按鈕事件委派方法 - 採用同步方法呼叫
 
+* 請在這個 [Index.razor] 元件檔案內，找出 [Reset] 方法
+* 將這個方法改寫成為底下的程式碼
 
+```csharp
+void Reset()
+{
+    Console.WriteLine($"將計數器強制修正為 100");
+    counterNumber = 100;
+    NewCounter.EchoCurrentCount();
+}
+```
 
+* 按下 [Shift] + [F5] 按鍵，停止這個專案執行
+* 按下 [F5] 按鍵，再度執行這個專案
+* 當點選了 [重新設定] 按鈕，將會出現底下的內容
+
+```
+  子元件的參數綁定生命週期事件觸發了 OnParametersSet : 0
+  開始執行子元件的轉譯樹建立程序 BuildRenderTree : 0
+  子元件的參數綁定生命週期事件觸發了 OnParametersSet : 0
+  開始執行子元件的轉譯樹建立程序 BuildRenderTree : 0
+將計數器強制修正為 100
+  子元件內部的參數數值 : 0
+  子元件的參數綁定生命週期事件觸發了 OnParametersSet : 100
+  開始執行子元件的轉譯樹建立程序 BuildRenderTree : 100
+```
+
+這個按鈕的事件委派方法採用同步的方式來執行，若 [counterNumber] 變數有變動之後，在這個按鈕事件委派方法執行之後，就會觸發 [OnParametersSet] 與 [BuildRenderTree] 因此，子元件就會更新到最新的狀態值。
+
+若更新 [Reset] 方法成為底下程式碼
+
+```csharp
+void Reset()
+{
+    Console.WriteLine($"沒有任何異動");
+    NewCounter.EchoCurrentCount();
+}
+```
+
+* 按下 [Shift] + [F5] 按鍵，停止這個專案執行
+* 按下 [F5] 按鍵，再度執行這個專案
+* 當點選了 [非同步重新設定] 按鈕，將會出現底下的內容
+
+```
+  子元件的參數綁定生命週期事件觸發了 OnParametersSet : 0
+  開始執行子元件的轉譯樹建立程序 BuildRenderTree : 0
+  子元件的參數綁定生命週期事件觸發了 OnParametersSet : 0
+  開始執行子元件的轉譯樹建立程序 BuildRenderTree : 0
+沒有任何異動
+  子元件內部的參數數值 : 0
+```
+
+不意外的，當 [counterNumber] 要綁定的物件值沒有任何異動，在這個按鈕事件結束執行之後，便不會觸發 [OnParametersSet] 與 [BuildRenderTree] 這兩個方法
+
+最後，若這個按鈕事件委派方法若強制呼叫 [StateHasChanged()] 的時候，又會如何呢？
+
+```csharp
+void Reset()
+{
+    Console.WriteLine($"沒有任何異動");
+    NewCounter.EchoCurrentCount();
+    StateHasChanged();
+}
+```
+
+從底下的執行結果可以看出，當按鈕觸發事件執行完成後，還是不會執行 [OnParametersSet] 與 [BuildRenderTree] 這兩個方法
+
+```
+  子元件的參數綁定生命週期事件觸發了 OnParametersSet : 0
+  開始執行子元件的轉譯樹建立程序 BuildRenderTree : 0
+  子元件的參數綁定生命週期事件觸發了 OnParametersSet : 0
+  開始執行子元件的轉譯樹建立程序 BuildRenderTree : 0
+沒有任何異動
+  子元件內部的參數數值 : 0
+```
 
 
 
