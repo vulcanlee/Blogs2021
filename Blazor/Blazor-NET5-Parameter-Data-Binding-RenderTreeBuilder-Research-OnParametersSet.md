@@ -451,7 +451,7 @@ Launch Task.Delay(100)
 
 經過這樣的修正之後，發現到完成第二次非同步作業呼叫之後，緊接著變更了 counterNumber 變數數值，直到這個按鈕事件完成之後，還是會觸發 [OnParametersSet] 與 [BuildRenderTree] 這兩個方法。
 
-現在，可以歸納出第四個設計技巧，在第二次再度使用 [await] 關鍵字呼叫完成非同步作業之後，若 counterNumber 變數數值有變動之後，Blazor 框架必定會自動觸發 [OnParametersSet] 與 [BuildRenderTree] 這兩個方法，。
+現在，可以歸納出第四個設計技巧，在第二次再度使用 [await] 關鍵字呼叫完成非同步作業之後，若 counterNumber 變數數值有變動之後，Blazor 框架必定會自動觸發 [OnParametersSet] 與 [BuildRenderTree] 這兩個方法。
 
 
 
