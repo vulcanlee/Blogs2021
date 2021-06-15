@@ -2,6 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|Blazor|[Blazor 使用參數資料綁定來傳遞元件參數與轉譯樹呼叫之深入研究](Blazor/Blazor-NET5-Parameter-Data-Binding-RenderTreeBuilder-Research-OnParametersSet.md)||https://csharpkh.blogspot.com/2021/07/Blazor-NET5-Parameter-Data-Binding-RenderTreeBuilder-Research-OnParametersSet.html|
 |Blazor|[如何使用 Ant Design Blazor](Blazor/Blazor-NET5-Ant-Design-Component.md)||https://csharpkh.blogspot.com/2021/06/Blazor-NET5-Ant-Design-Component.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 中介軟體](CSharp/ASP-NET-Core-NET5-httpcontext-middleware-StaticFileOptions-PhysicalFileProvider-Invoke-context.md)||https://csharpkh.blogspot.com/2021/06/ASP-NET-Core-NET5-httpcontext-middleware-StaticFileOptions-PhysicalFileProvider-Invoke-context.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 應用程式啟動與Startup類別](CSharp/ASP-NET-Core-NET5-Entry-Pointer-Program-Startup-ConfigureServices-Configure.md)||https://csharpkh.blogspot.com/2021/06/ASP-NET-Core-NET5-Entry-Pointer-Program-Startup-ConfigureServices-Configure.html|
