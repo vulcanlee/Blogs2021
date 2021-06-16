@@ -1,8 +1,8 @@
-# ASP.NET Core 應該具備知識 - 相依性注入設計模式
+# ASP.NET Core 應該具備知識 - 設定
 
-![](../Images/x124.png)
+![](../Images/x136.png)
 
-## 建立一個 ASP.NET Core MVC 專案
+## 建立一個 ASP.NET Core Razor Page 專案
 
 * 開啟 Visual Studio 2019
 * 在 [Visual Studio 2019] 對話窗中，點選右下方的 [建立新的專案] 選項
@@ -10,81 +10,24 @@
   
   1. 設定程式語言為 [C#]
   2. 設定專案範本為 [Web]
-  3. 選擇專案範本項目清單，點選 [ASP.NET Core Web 應用程式 (Model-View-Controller)] 這個專案範本項目
+  3. 選擇專案範本項目清單，點選 [ASP.NET Core Web 應用程式] 這個專案範本項目
+
+     >這個範本是可用於使用範例 ASP.NET Razor 頁面內容建立 ASP.NET Core 應用程式的專案範本。
+
+     ![](../Images/x137.png)
+
   4. 點選右下方的 [下一步] 按鈕
 * 在 [設定新的專案] 對話窗出現後
 
-  在 [專案名稱] 內，輸入 `AC04`
+  在 [專案名稱] 內，輸入 `AC05`
 
   點選右下角的 [下一步] 按鈕
 
 * 在 [其他資訊] 對話窗出現後，確認 [目標 Framework] 的下拉選單要選擇 [.NET 5.0 (目前)]
 * 點選右下角的 [建立] 按鈕
-* 此時這個 [ASP.NET Core Web 應用程式 (Model-View-Controller)] 專案已經建立完成，從方案總管視窗內可以看到如下圖的結構
+* 此時這個 [ASP.NET Core Web 應用程式] 專案已經建立完成，從方案總管視窗內可以看到如下圖的結構
 
-  ![](../Images/x115.png)
-
-* 請打開根目錄下的 [Startup.cs] 檔案，中介軟體將會在這裡進行設計
-
-```csharp
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace AC04
-{
-    public class Startup
-    {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
-
-        public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddControllersWithViews();
-        }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
-        }
-    }
-}
-```
+  ![](../Images/x138.png)
 
 ## 加入一個客製化的圖片資料夾與圖片檔案
 
@@ -297,7 +240,7 @@ info: Microsoft.Hosting.Lifetime[0]
 info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Development
 info: Microsoft.Hosting.Lifetime[0]
-      Content root path: D:\Vulcan\GitHub\Blazor-Xamarin-Full-Stack-HOL\Examples\AC04\AC04
+      Content root path: D:\Vulcan\GitHub\Blazor-Xamarin-Full-Stack-HOL\Examples\AC05\AC05
 呼叫第 1 個客製化中介軟體
 路由路徑 /
 呼叫第 2 個客製化中介軟體
@@ -328,7 +271,7 @@ info: Microsoft.Hosting.Lifetime[0]
 info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Development
 info: Microsoft.Hosting.Lifetime[0]
-      Content root path: D:\Vulcan\GitHub\Blazor-Xamarin-Full-Stack-HOL\Examples\AC04\AC04
+      Content root path: D:\Vulcan\GitHub\Blazor-Xamarin-Full-Stack-HOL\Examples\AC05\AC05
 呼叫第 1 個客製化中介軟體
 路由路徑 /
 呼叫第 2 個客製化中介軟體
