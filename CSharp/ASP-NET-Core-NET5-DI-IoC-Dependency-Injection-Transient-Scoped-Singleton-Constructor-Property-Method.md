@@ -11,6 +11,9 @@
   1. 設定程式語言為 [C#]
   2. 設定專案範本為 [Web]
   3. 選擇專案範本項目清單，點選 [ASP.NET Core Web API] 這個專案範本項目
+
+     >用於建立 ASP.NET Core 應用程式的專案範本，附有 RESTful HTTP 服務的控制器範例。此範本也可用於 ASP.NET Core MVC 的檢視及控制器。
+
   4. 點選右下方的 [下一步] 按鈕
 
   ![](../Images/x153.png)

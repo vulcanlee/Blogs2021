@@ -2,6 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|CSharp|[ASP.NET Core 應該具備知識 - 選項模式](CSharp/ASP-NET-Core-NET5-ISP-separation-of-concerns-Bind-IOptions.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-ISP-separation-of-concerns-Bind-IOptions.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 相依性注入設計模式](CSharp/ASP-NET-Core-NET5-DI-IoC-Dependency-Injection-Transient-Scoped-Singleton-Constructor-Property-Method.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-DI-IoC-Dependency-Injection-Transient-Scoped-Singleton-Constructor-Property-Method.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 設定](CSharp/ASP-NET-Core-NET5-Configuration-appsettings-environment-variable-IConfiguration.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-Configuration-appsettings-environment-variable-IConfiguration.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 靜態檔案](CSharp/ASP-NET-Core-NET5-UseStaticFiles-Startup-Configure-wwwroot.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-UseStaticFiles-Startup-Configure-wwwroot.html|
