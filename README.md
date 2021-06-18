@@ -2,6 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|CSharp|[ASP.NET Core 應該具備知識 - 日誌記錄](CSharp/ASP-NET-Core-NET5-Logger-Providers-LogLevel-ILogger-Information-LoggerFactory.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-Logger-Providers-LogLevel-ILogger-Information-LoggerFactory.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 選項模式](CSharp/ASP-NET-Core-NET5-ISP-separation-of-concerns-Bind-IOptions.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-ISP-separation-of-concerns-Bind-IOptions.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 相依性注入設計模式](CSharp/ASP-NET-Core-NET5-DI-IoC-Dependency-Injection-Transient-Scoped-Singleton-Constructor-Property-Method.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-DI-IoC-Dependency-Injection-Transient-Scoped-Singleton-Constructor-Property-Method.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 設定](CSharp/ASP-NET-Core-NET5-Configuration-appsettings-environment-variable-IConfiguration.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-Configuration-appsettings-environment-variable-IConfiguration.html|
