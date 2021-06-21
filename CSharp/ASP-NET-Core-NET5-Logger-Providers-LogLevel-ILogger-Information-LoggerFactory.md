@@ -204,9 +204,15 @@ warn: AC07.UnhandledExceptionMiddleware[0]
 }
 ```
 
+Logging屬性可以有 LogLevel 和記錄提供者屬性。 會 LogLevel 指定要記錄所選分類的最低層級。 在先前的 JSON 中 Information ， Warning 會指定和記錄層級。 LogLevel指出記錄檔的嚴重性，範圍從0到6：
+
+Trace= 0、 Debug = 1、 Information = 2、 Warning = 3、 Error = 4、 Critical = 5 和 None = 6。
+
+當 LogLevel 指定時，會針對指定層級和更新版本中的訊息啟用記錄。 在先前的 JSON 中， Default 類別目錄會針對 Information 和更高版本進行記錄。 例如， Information Warning 會記錄、、 Error 和 Critical 訊息。 如果未 LogLevel 指定，則記錄預設為 Information 層級。
+
 * 在第一個 [Logging] 屬性是用來設定日誌輸出設定
 * 從 [LogLevel] > [Default] 的屬性值看到，這個日誌提供者僅會針對 [Information] 以上等級的日誌才會寫入輸出
-* 若此時變更 [LogLevel] > [Default] 屬性值為 [Trace]
+* 若此時變更 [Logging] > [LogLevel] > [Default] 屬性值為 [Trace]
 * 按下 [Ctrl] + [F5] 按鈕，停止這個專案執行
 * 請按下 [F5] 按鍵，開始執行這個專案
 * 請在瀏覽器上輸入 `https://localhost:5001/api/WebLog` 網址
@@ -248,14 +254,16 @@ warn: AC07.UnhandledExceptionMiddleware[0]
 
 * 接著，會來讀取 [appsettings.Development.json] 內的設定屬性值，並且會優先使用這個檔案內的屬性值
 
-因此，雖然在 [appsettings.json] 內變更 [LogLevel] > [Default] 屬性值為 [Trace]，不過在 [appsettings.Development.json] 內的 [LogLevel] > [Default] 屬性值為 [Information]，所以，還是排除掉了 [Debug] 這個等級的日誌訊息。
+因此，雖然在 [appsettings.json] 內變更 [Logging] > [LogLevel] > [Default] 屬性值為 [Trace]，不過在 [appsettings.Development.json] 內的 [Logging] > [LogLevel] > [Default] 屬性值為 [Information]，所以，還是排除掉了 [Debug] 這個等級的日誌訊息。
 
-* 現在修正 [appsettings.Development.json] 內的 [LogLevel] > [Default] 屬性值為 [Trace]
+* 現在修正 [appsettings.Development.json] 內的 [Logging] > [LogLevel] > [Default] 屬性值為 [Trace]
 * 按下 [Ctrl] + [F5] 按鈕，停止這個專案執行
 * 請按下 [F5] 按鍵，開始執行這個專案
 * 請在瀏覽器上輸入 `https://localhost:5001/api/WebLog` 網址
 * 切換到執行這個專案的 [命令提示字元視窗] 下
 * 將會看到底下的內容
+
+  ![](../Images/x171.png)
 
 ```
 dbug: AC07.UnhandledExceptionMiddleware[0]
@@ -279,6 +287,7 @@ dbug: AC07.UnhandledExceptionMiddleware[0]
 warn: AC07.UnhandledExceptionMiddleware[0]
       HTTP 回應不是成功代碼 404
 ```
+
 
 
 
