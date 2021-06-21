@@ -2,7 +2,6 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
-|Xamarin.Forms|[.NET 6 Preview 5 MAUI App 體驗使用經驗 1](XamarinForms/NET-Preview6-MAUI.md)||https://csharpkh.blogspot.com/2021/07/NET-Preview6-MAUI.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 日誌記錄](CSharp/ASP-NET-Core-NET5-Logger-Providers-LogLevel-ILogger-Information-LoggerFactory.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-Logger-Providers-LogLevel-ILogger-Information-LoggerFactory.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 選項模式](CSharp/ASP-NET-Core-NET5-ISP-separation-of-concerns-Bind-IOptions.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-ISP-separation-of-concerns-Bind-IOptions.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 相依性注入設計模式](CSharp/ASP-NET-Core-NET5-DI-IoC-Dependency-Injection-Transient-Scoped-Singleton-Constructor-Property-Method.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-DI-IoC-Dependency-Injection-Transient-Scoped-Singleton-Constructor-Property-Method.html|
@@ -11,6 +10,8 @@
 |Blazor|[Blazor 使用參數資料綁定來傳遞元件參數與轉譯樹呼叫之深入研究](Blazor/Blazor-NET5-Parameter-Data-Binding-RenderTreeBuilder-Research-OnParametersSet.md)||https://csharpkh.blogspot.com/2021/07/Blazor-NET5-Parameter-Data-Binding-RenderTreeBuilder-Research-OnParametersSet.html|
 |Blazor|[如何使用 Ant Design Blazor](Blazor/Blazor-NET5-Ant-Design-Component.md)||https://csharpkh.blogspot.com/2021/06/Blazor-NET5-Ant-Design-Component.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 中介軟體](CSharp/ASP-NET-Core-NET5-httpcontext-middleware-StaticFileOptions-PhysicalFileProvider-Invoke-context.md)||https://csharpkh.blogspot.com/2021/06/ASP-NET-Core-NET5-httpcontext-middleware-StaticFileOptions-PhysicalFileProvider-Invoke-context.html|
+|Xamarin.Forms|[.NET 6 Preview 5 MAUI App 體驗使用經驗 1](XamarinForms/NET-Preview6-MAUI.md)||https://csharpkh.blogspot.com/2021/06/NET-Preview6-MAUI.html|
+|Xamarin.Forms|[.NET 6 Preview 5 MAUI Blazor App 體驗使用經驗 2](XamarinForms/NET-Preview6-MAUI-Blazor-App.md)||https://csharpkh.blogspot.com/2021/06/NET-Preview6-MAUI-Blazor-App.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 應用程式啟動與Startup類別](CSharp/ASP-NET-Core-NET5-Entry-Pointer-Program-Startup-ConfigureServices-Configure.md)||https://csharpkh.blogspot.com/2021/06/ASP-NET-Core-NET5-Entry-Pointer-Program-Startup-ConfigureServices-Configure.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 從空白專案建立 Blazor 應用](CSharp/ASP-NET-Core-Empty-Project-NET5-Blazor.md)||https://csharpkh.blogspot.com/2021/06/ASP-NET-Core-Empty-Project-NET5-Blazor.html|
 |Blazor|[Blazor Server 快速開發專案樣板 7 - 無登入轉首頁與踢出停用帳號](Blazor/Blazor-Backend-project-template-syncfusion-NET5-Part7-Notification-Navigation-Login-Disable-User.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Backend-project-template-syncfusion-NET5-Part7-Notification-Navigation-Login-Disable-User.html|

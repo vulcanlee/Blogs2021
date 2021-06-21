@@ -527,10 +527,6 @@ you'll know where to start searching!
 Press enter to exit...
 ```
 
-![](../Images/Csharp878.png)
-
-
-
 
 [Announcing .NET 6 Preview 5](https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-5/)
 
@@ -540,5 +536,4 @@ Press enter to exit...
 
 [.NET Multi-platform App UI documentation](https://docs.microsoft.com/zh-tw/dotnet/maui/)
 
-[]()
 
