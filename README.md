@@ -2,8 +2,9 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|Blazor|[Blazor Server 必會開發技能 - C# 程式碼設計方法](Blazor/Blazor-must-learn-skill-Component-CSharp-code-Programming-Codebehing-ViewModel-Razor.md)||https://csharpkh.blogspot.com/2021/07/Blazor-must-learn-skill-Component-CSharp-code-Programming-Codebehing-ViewModel-Razor.html|
 |Blazor|[Blazor 開發經驗分享 - 了解 Blazor 參數傳入過程](Blazor/Blazor-Parameter-Argument-SetParametersAsync-OnParametersSet.md)||https://csharpkh.blogspot.com/2021/06/Blazor-Parameter-Argument-SetParametersAsync-OnParametersSet.html|
-|Blazor|[Blazor Server 必會開發技能 - 元件生命週期事件](Blazor/Blazor-must-learn-skill-Component-LifeCycle-OnInitialized-OnAfterRender-OnParametersSet.md)||https://csharpkh.blogspot.com/2021/06/Blazor-must-learn-skill-Component-LifeCycle-OnInitialized-OnAfterRender-OnParametersSet.html|
+|Blazor|[Blazor Server 必會開發技能 - 元件生命週期事件](Blazor/Blazor-must-learn-skill-Component-LifeCycle-OnInitialized-OnAfterRender-OnParametersSet.md)||https://csharpkh.blogspot.com/2021/07/Blazor-must-learn-skill-Component-LifeCycle-OnInitialized-OnAfterRender-OnParametersSet.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 日誌記錄](CSharp/ASP-NET-Core-NET5-Logger-Providers-LogLevel-ILogger-Information-LoggerFactory.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-Logger-Providers-LogLevel-ILogger-Information-LoggerFactory.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 選項模式](CSharp/ASP-NET-Core-NET5-ISP-separation-of-concerns-Bind-IOptions.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-ISP-separation-of-concerns-Bind-IOptions.html|
 |CSharp|[ASP.NET Core 應該具備知識 - 相依性注入設計模式](CSharp/ASP-NET-Core-NET5-DI-IoC-Dependency-Injection-Transient-Scoped-Singleton-Constructor-Property-Method.md)||https://csharpkh.blogspot.com/2021/07/ASP-NET-Core-NET5-DI-IoC-Dependency-Injection-Transient-Scoped-Singleton-Constructor-Property-Method.html|
