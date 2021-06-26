@@ -2,6 +2,7 @@
 
 |類型|文章檔案|文章名稱|部落格網址|
 |-|-|-|-|
+|Blazor|[Blazor Server 必會開發技能 - 元件間的參數傳遞與回應事件](Blazor/Blazor-must-learn-skill-Component-Parameter-EventCallback-InvokeAsync-binding.md)||https://csharpkh.blogspot.com/2021/07/Blazor-must-learn-skill-Component-Parameter-EventCallback-InvokeAsync-binding.html|
 |Blazor|[Blazor Server 必會開發技能 - Hello 互動頁面與事件設計](Blazor/Blazor-must-learn-skill-Two-way-Data-Binding-bind-value-oninput-onclick.md)||https://csharpkh.blogspot.com/2021/07/Blazor-must-learn-skill-Two-way-Data-Binding-bind-value-oninput-onclick.html|
 |Blazor|[Blazor Server 必會開發技能 - 單向資料綁定與重新轉譯](Blazor/Blazor-must-learn-skill-Component-Data-Binding-Render-DOM-StateHasChanged.md)||https://csharpkh.blogspot.com/2021/07/Blazor-must-learn-skill-Component-Data-Binding-Render-DOM-StateHasChanged.html|
 |Blazor|[Blazor Server 必會開發技能 - C# 程式碼設計方法](Blazor/Blazor-must-learn-skill-Component-CSharp-code-Programming-Codebehing-ViewModel-Razor.md)||https://csharpkh.blogspot.com/2021/07/Blazor-must-learn-skill-Component-CSharp-code-Programming-Codebehing-ViewModel-Razor.html|
