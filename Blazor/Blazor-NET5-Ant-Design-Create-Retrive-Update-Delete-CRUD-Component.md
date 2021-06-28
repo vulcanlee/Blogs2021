@@ -2,9 +2,9 @@
 
 ![](../Images/Csharp864.png)
 
-[如何使用 Ant Design Blazor](https://csharpkh.blogspot.com/2021/06/ant-design-blazor.html)
+在之前的文章 [如何使用 Ant Design Blazor](https://csharpkh.blogspot.com/2021/06/ant-design-blazor.html) ，說明如何在 Blazor 專案內來使用 [Ant Design of Blazor] 這個元件的開發過程。
 
-Blazor 這個優異的 Web UI 開發框架，讓 .NET C# 開發者可以輕鬆容易地進行各種網頁專案開發，而且，網路上也存在著許多各種不同 UI 套件來滿足 Blazor 開發者的需求，在這篇文章中，將要來體驗這套 [Ant Design of Blazor](https://antblazor.com/en-US/) UI 套件，看看如何使用與執行出來的效果如何。
+在這篇文章將會使用 [Ant Design of Blazor](https://antblazor.com/en-US/) 這套元件內的 Table 這個 Blazor 元件，並且用這個元件來設計出具有 CRUD (Create, Retrive, Update, Delete) 新增、查詢、更新、刪除 四大功能，而這樣的需求也是要學會開發 Web 專案技術的一個必備技能。
 
 這篇文章的原始碼位於 [bzAntTable](https://github.com/vulcanlee/CSharp2021/tree/main/bzAntTable)
 
